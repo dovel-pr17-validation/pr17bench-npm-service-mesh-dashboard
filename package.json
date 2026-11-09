@@ -23,7 +23,7 @@
     "filesize": "~11.0.17",
     "js-quantities": "^1.7.0",
     "lodash": "~4.17.23",
-    "object-sizeof": "^1.2.0",
+    "object-sizeof": "^3.0.1",
     "prop-types": "^15.6.0",
     "react": "^18.0.0",
     "react-collapse": "^5.1.1",
