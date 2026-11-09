@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledG matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-transform: scale();
+  -ms-transform: scale();
+  transform: scale();
+}
+
+<svg>
+    <g
+      class="c0"
+      fill="currentColor"
+    />
+  </svg>
+</DocumentFragment>
+`;

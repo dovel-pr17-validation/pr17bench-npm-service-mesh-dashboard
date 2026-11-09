@@ -1,0 +1,208 @@
+{
+  "go": {
+    "runtime": "GO",
+    "summaryCard": {
+      "icon": "Go",
+      "name": {
+        "id": "goInstance.go.summaryCard.name",
+        "defaultMessage": "Go",
+        "description": "The name of the Go Programming Language"
+      },
+      "chart": {
+        "type": "value",
+        "dataAttribute": "go_metrics/runtime/alloc_bytes"
+      },
+      "lines": [
+        {
+          "name": {
+            "id": "goInstance.go.summaryCard.lines.heapUsed",
+            "defaultMessage": "Heap Used",
+            "description":
+              "Prefix Label for the number of megabytes allocated to the go runtime heap"
+          },
+          "value": [
+            {
+              "type": "latest",
+              "value": "go_metrics/runtime/alloc_bytes",
+              "baseUnit": "B",
+              "resultUnit": "MB",
+              "precision": 3
+            }
+          ]
+        }
+      ]
+    },
+    "grid": {
+      "breakpoints": {
+        "lg": 1200,
+        "md": 996,
+        "sm": 768
+      },
+      "cols": {
+        "lg": 12,
+        "md": 8,
+        "sm": 4
+      },
+      "layouts": {
+        "lg": [
+          { "i": "Heap", "x": 0, "y": 0, "w": 6, "h": 9, "minW": 4, "minH": 5 },
+          {
+            "i": "Goroutines",
+            "x": 6,
+            "y": 0,
+            "w": 6,
+            "h": 9,
+            "minW": 4,
+            "minH": 5
+          }
+        ],
+        "md": [
+          { "i": "Heap", "x": 0, "y": 0, "w": 8, "h": 9, "minW": 4, "minH": 5 },
+          {
+            "i": "Goroutines",
+            "x": 0,
+            "y": 9,
+            "w": 8,
+            "h": 9,
+            "minW": 4,
+            "minH": 5
+          }
+        ],
+        "sm": [
+          { "i": "Heap", "x": 0, "y": 0, "w": 6, "h": 9, "minW": 4, "minH": 5 },
+          {
+            "i": "Goroutines",
+            "x": 6,
+            "y": 0,
+            "w": 6,
+            "h": 9,
+            "minW": 4,
+            "minH": 5
+          }
+        ]
+      },
+      "rowHeight": 60
+    },
+    "charts": [
+      {
+        "key": "Heap",
+        "title": {
+          "id": "goInstance.go.chart.heapChart.title",
+          "defaultMessage": "Heap",
+          "description": "the memory heap of a programming language runtime"
+        },
+        "type": "GMLineChart",
+        "data": {
+          "detailLines": [
+            [
+              {
+                "type": "string",
+                "value": {
+                  "id":
+                    "goInstance.go.chart.heapChart.detailLines.garbageCollectionRuns",
+                  "defaultMessage": "Garbage Collection Runs:",
+                  "description":
+                    "Prefix Label for a count of the number of times garbage collection has run"
+                }
+              },
+              {
+                "type": "latest",
+                "value": "go_metrics/runtime/total_gc_runs",
+                "precision": 3
+              }
+            ],
+            [
+              {
+                "type": "string",
+                "value": {
+                  "id":
+                    "goInstance.go.chart.heapChart.detailLines.totalGarbageCollectionPause",
+                  "defaultMessage": "Total GC Pause:",
+                  "description":
+                    "The total amount of time that the language runtime has been paused due to garbage collection"
+                }
+              },
+              {
+                "type": "latest",
+                "value": "go_metrics/runtime/total_gc_pause_ns",
+                "precision": 3,
+                "baseUnit": "ns",
+                "resultUnit": "ms"
+              }
+            ]
+          ],
+          "timeseries": [
+            {
+              "type": "value",
+              "attribute": "go_metrics/runtime/alloc_bytes",
+              "label": {
+                "id":
+                  "goInstance.go.chart.heapChart.timeseries.heapUsedChartLabel",
+                "defaultMessage": "Go Heap Used (MB)",
+                "description":
+                  "A label for a line chart depicting the amount of the Go Heap that is being used in MB"
+              },
+              "precision": 0,
+              "baseUnit": "B",
+              "resultUnit": "MB"
+            },
+            {
+              "type": "value",
+              "attribute": "go_metrics/runtime/sys_bytes",
+              "label": {
+                "id":
+                  "goInstance.go.chart.heapChart.timeseries.heapSizeChartLabel",
+                "defaultMessage": "Go Heap Size (MB)",
+                "description":
+                  "A label for a line chart depicting the total size of the Go Heap in MB"
+              },
+              "precision": 0,
+              "baseUnit": "B",
+              "resultUnit": "MB"
+            },
+            {
+              "type": "value",
+              "attribute": "process/memory/used",
+              "label": {
+                "id":
+                  "goInstance.go.chart.heapChart.timeseries.processMemoryUsedChartLabel",
+                "defaultMessage": "Process Memory Used (MB)",
+                "description":
+                  "A label for a line chart depicting the process memory used in MB"
+              },
+
+              "precision": 0,
+              "baseUnit": "B",
+              "resultUnit": "MB"
+            }
+          ]
+        }
+      },
+      {
+        "key": "Goroutines",
+        "title": {
+          "id": "goInstance.go.chart.goroutines.title",
+          "defaultMessage": "Goroutines",
+          "description":
+            "the title of a chart depicting the number of active goroutines, which are lightweight coroutines in the Go programming language"
+        },
+        "type": "GMLineChart",
+        "data": {
+          "timeseries": [
+            {
+              "type": "value",
+              "attribute": "go_metrics/runtime/num_goroutines",
+              "label": {
+                "id":
+                  "goInstance.go.chart.goroutines.timeseries.goroutinesChartLabel",
+                "defaultMessage": "# of allocated goroutines",
+                "description":
+                  "a chart legend accompanying a line depicting the number of active goroutines, which are lightweight coroutines in the Go programming language"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

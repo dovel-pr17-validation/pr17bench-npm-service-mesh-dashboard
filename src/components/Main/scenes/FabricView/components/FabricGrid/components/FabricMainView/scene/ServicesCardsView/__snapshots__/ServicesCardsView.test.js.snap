@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServicesCardsView component rendering Has a snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 16px 24px;
+  max-width: 1300px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px 16px 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1010;
+  background-color: rgb(255,255,255);
+  max-width: 1300px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+<div
+    data-testid="view-container"
+  >
+    <div
+      data-testid="cards-view"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          data-testid="service-header"
+        />
+      </div>
+      <div
+        class="c1"
+      >
+        <div
+          data-testid="card-collection"
+        />
+      </div>
+    </div>
+    <div
+      data-testid="cards-view"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          data-testid="service-header"
+        />
+      </div>
+      <div
+        class="c1"
+      >
+        <div
+          data-testid="card-collection"
+        />
+      </div>
+    </div>
+    <div
+      data-testid="cards-view"
+    >
+      <div
+        class="c0"
+      >
+        <div
+          data-testid="service-header"
+        />
+      </div>
+      <div
+        class="c1"
+      >
+        <div
+          data-testid="card-collection"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

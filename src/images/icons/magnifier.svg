@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 47 (45359) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-magnifier</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs>
+        <path d="M11.2867479,16.7132521 L7,21 L6,20 L10.2867479,15.7132521 C9.48089873,14.6917868 9,13.4020534 9,12 C9,8.6862915 11.6862915,6 15,6 C18.3137085,6 21,8.6862915 21,12 C21,15.3137085 18.3137085,18 15,18 C13.5979466,18 12.3082132,17.5191013 11.2867479,16.7132521 Z M15,16 C17.209139,16 19,14.209139 19,12 C19,9.790861 17.209139,8 15,8 C12.790861,8 11,9.790861 11,12 C11,14.209139 12.790861,16 15,16 Z" id="path-1"></path>
+    </defs>
+    <g id="Glyphs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="magnifier">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Oval" fill="#000" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

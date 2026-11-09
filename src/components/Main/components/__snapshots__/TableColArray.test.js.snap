@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableColArray matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-flex: 1 1 12%;
+  -ms-flex: 1 1 12%;
+  flex: 1 1 12%;
+  text-align: left;
+}
+
+.c1 {
+  text-align: right;
+}
+
+.c1 span + span {
+  font-size: 80%;
+  opacity: 0.8;
+}
+
+<div
+    class="c0 c1"
+  />
+</DocumentFragment>
+`;

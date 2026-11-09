@@ -1,0 +1,51 @@
+# Envoy sends statsd metrics to Prometheus via the Prometheus Statsd exporter
+version: '3'
+
+networks:
+
+  fabric: {}
+
+services:
+
+  clock:
+
+    build: ./clock
+    networks:
+      - fabric
+    ports:
+      - 4567:4567
+      - 7080:7080
+      - 7081:7081
+
+  edge:
+
+    build: ./edge
+    volumes:
+      - ./edge/etc/envoy/envoy.json:/etc/envoy.json
+    networks:
+      - fabric
+    ports:
+      - 8080:8080
+      - 8081:8081
+
+  zipkin:
+
+    image: openzipkin/zipkin:1.28.1
+    networks:
+      - fabric
+    ports:
+      - 9411:9411
+
+  graphite:
+
+    build: ./graphite
+    networks:
+      - fabric
+    ports:
+      - 2003:2003
+      - 2004:2004
+      - 2024:2024
+      - 8125:8125
+      - 8126:8126
+      - 9080:9080
+      - 9081:9081

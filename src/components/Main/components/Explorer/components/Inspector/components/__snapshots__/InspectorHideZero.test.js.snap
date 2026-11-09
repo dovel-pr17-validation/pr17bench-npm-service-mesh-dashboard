@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InspectorHideZero matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: currentColor;
+}
+
+<input
+    class="c0"
+    name="hideZeroMetric"
+    type="checkbox"
+  />
+</DocumentFragment>
+`;

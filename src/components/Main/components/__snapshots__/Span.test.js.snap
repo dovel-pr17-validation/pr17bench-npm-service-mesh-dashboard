@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Span matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin-left: 20px;
+}
+
+<span
+    class="c0"
+  />
+</DocumentFragment>
+`;

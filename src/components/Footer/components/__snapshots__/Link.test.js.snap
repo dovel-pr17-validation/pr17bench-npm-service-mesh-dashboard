@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link should render 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: rgb(153,153,153);
+  padding: 0 8px;
+}
+
+.c0:hover {
+  color: rgb(10,171,42);
+}
+
+<a
+    class="c0"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table component matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: block;
+  font-family: Rubik,-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgb(255,255,255);
+  box-shadow: inset 0 -1px hsl(0,0%,92%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-weight: 400;
+  overflow: visible;
+  width: 100%;
+}
+
+.c10 {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c2 {
+  -webkit-flex: 1 1 12%;
+  -ms-flex: 1 1 12%;
+  flex: 1 1 12%;
+  text-align: left;
+}
+
+.c3 {
+  padding-right: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c3:first-child {
+  padding-left: 16px;
+}
+
+.c7 {
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 6px;
+  color: rgb(255,255,255);
+  font-family: Metropolis,-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-size: 11px;
+  opacity: 0;
+  padding: 10px;
+  position: absolute;
+  text-align: left;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  visibility: hidden;
+  white-space: normal;
+  width: 160px;
+  z-index: 1070;
+  right: 120%;
+  top: -5px;
+}
+
+.c6 {
+  border-bottom: 1px solid rgb(217,217,217);
+  cursor: help;
+  display: inline-block;
+  position: relative;
+}
+
+.c6:hover > :last-child {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1070;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: visible;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c9 {
+  font-size: 11px;
+  color: rgb(77,77,77);
+}
+
+.c5 {
+  padding: 8px;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2 c3"
+        style="flex: 1 1 20%;"
+      >
+        Route
+      </div>
+      <div
+        class="c2 c3"
+      >
+        Requests/sec
+      </div>
+      <div
+        class="c2 c3"
+        style="text-align: right;"
+      >
+        Requests
+      </div>
+      <div
+        class="c2 c3"
+        style="text-align: right;"
+      >
+        Error %
+      </div>
+      <div
+        class="c2 c3 c4"
+      >
+        <div
+          class="c5"
+        >
+          <div
+            class="c6"
+          >
+            Latency
+            <div
+              class="c7"
+            >
+              Latency 50% refers to the average latency of the 50% percentile, while Latency 99% is the average latency for the slowest 1% of responses, also known as tail latency.
+            </div>
+          </div>
+        </div>
+        <div
+          class="c8"
+        >
+          <div
+            class="c9"
+          >
+            50%
+          </div>
+          <div
+            class="c9"
+          >
+            99%
+          </div>
+        </div>
+      </div>
+    </div>
+    <ol
+      class="c10"
+    >
+      <div
+        data-testid="table-line-item"
+      />
+      <div
+        data-testid="table-line-item"
+      />
+    </ol>
+  </div>
+</DocumentFragment>
+`;

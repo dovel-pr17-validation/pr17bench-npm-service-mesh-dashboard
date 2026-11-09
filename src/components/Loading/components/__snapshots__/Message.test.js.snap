@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -150px;
+  width: 300px;
+  text-align: center;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

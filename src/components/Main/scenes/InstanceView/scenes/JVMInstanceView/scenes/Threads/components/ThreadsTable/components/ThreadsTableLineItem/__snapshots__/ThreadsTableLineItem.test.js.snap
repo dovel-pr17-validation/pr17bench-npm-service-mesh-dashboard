@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThreadsTableLineItem component Matched the snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  -webkit-flex: 1 1 12%;
+  -ms-flex: 1 1 12%;
+  flex: 1 1 12%;
+  text-align: left;
+}
+
+.c2 {
+  -webkit-flex: 0 1 5em;
+  -ms-flex: 0 1 5em;
+  flex: 0 1 5em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c5 {
+  -webkit-flex: 0 1 5em;
+  -ms-flex: 0 1 5em;
+  flex: 0 1 5em;
+  -webkit-flex: 0 1 7em;
+  -ms-flex: 0 1 7em;
+  flex: 0 1 7em;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgb(255,255,255);
+  box-shadow: inset 0 -1px hsl(0,0%,92%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  min-height: 36px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.c0:hover {
+  background-color: hsl(0,0%,98%);
+}
+
+.c0:focus {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.c0:focus:active:hover {
+  outline: 0;
+}
+
+.c0 > * {
+  padding-right: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c0 > *:first-child {
+  padding-left: 16px;
+}
+
+.c4 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c3 {
+  z-index: 1;
+  height: 24px;
+  width: 24px;
+  color: hsl(46.69999999999999,100%,41.6%);
+  word-spacing: 0;
+  vertical-align: middle;
+}
+
+.c3:not(:root) {
+  overflow: visible;
+}
+
+.c6 {
+  z-index: 1;
+  height: 24px;
+  width: 24px;
+  color: currentColor;
+  word-spacing: 0;
+  vertical-align: middle;
+}
+
+.c6:not(:root) {
+  overflow: visible;
+}
+
+<li
+    class="c0"
+    role="link"
+    tabindex="0"
+  >
+    <div
+      class="c1 c2"
+    >
+      <svg
+        aria-labelledby="ariaLabelledby"
+        class="c3"
+        focusable="false"
+        version="1.1"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          class="iconBackground"
+          fill="hsl(46.69999999999999, 100%, 46.8%)"
+          fill-opacity=".3"
+          fill-rule="evenodd"
+          id="TriangleSmall"
+        >
+          <path
+            d="M12.8468583,4.36325889 L20.9902272,17.4723234 C21.2816549,17.9414591 21.1375941,18.5580176 20.6684584,18.8494453 C20.5100456,18.9478516 20.3272715,19 20.1407818,19 L3.80424764,19 C3.25196289,19 2.80424764,18.5522847 2.80424764,18 C2.80424764,17.8125803 2.85691709,17.6289327 2.95624934,17.4700011 L11.1494146,4.36093656 C11.442125,3.89260003 12.0590754,3.75022687 12.5274119,4.0429372 C12.6569646,4.12390762 12.7662427,4.23348515 12.8468583,4.36325889 Z"
+            id="Background"
+          />
+        </g>
+        <g
+          class="c4"
+          fill="currentColor"
+          title=""
+        >
+          <title />
+          <path
+            d="M11,14 L13,14 L13,16 L11,16 L11,14 Z M11,9 L13,9 L13,11.0070282 L12.5,13 L11.5,13 L11,11.0070282 L11,9 Z"
+            id="Exclamation"
+          />
+        </g>
+      </svg>
+    </div>
+    <div
+      class="c1 c2"
+    >
+      11
+    </div>
+    <div
+      class="c1"
+    >
+      finagle/netty3-7
+    </div>
+    <div
+      class="c1 c5"
+    >
+      Yes
+    </div>
+    <div
+      class="c1 c5"
+    >
+      10
+    </div>
+    <div
+      class="c1 c2"
+    >
+      <svg
+        aria-labelledby="ariaLabelledby"
+        class="c6"
+        focusable="false"
+        version="1.1"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          class="c4"
+          fill="currentColor"
+          title=""
+        >
+          <title />
+          <g
+            class="glyph"
+            fill="currentColor"
+            transform="translate(0 0) scale(1)"
+          >
+            <path
+              d="M7,7 L19,7 L19,9 L7,9 L7,7 Z M6,11 L18,11 L18,13 L6,13 L6,11 Z M5,15 L17,15 L17,17 L5,17 L5,15 Z"
+              id="shape"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+  </li>
+</DocumentFragment>
+`;
